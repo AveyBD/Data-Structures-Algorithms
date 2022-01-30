@@ -12,5 +12,6 @@ def fibonacci(n):
         return fibonacci(n - 1) + fibonacci(n - 2)
 
 print('Enter The Number:')
+
 n = int(input())
 print(fibonacci(n))
